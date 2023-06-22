@@ -744,7 +744,7 @@ transition: .5s;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #406d05;
+  background: #406d05 !important;
   color: #fff;
 }
 
