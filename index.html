@@ -20,7 +20,7 @@
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i"
     rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/5d62c045f3.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/5d62c045f3.js" crossorigin="anonymous"></script>
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -31,6 +31,10 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <link href="assets\css\style.css" rel="stylesheet">
+
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
 
 
 </head>
@@ -51,30 +55,28 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li> 
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+
           <li class="dropdown"><a href="#"><span>Our Solutions</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a> -->
+              <li class="dropdown"><a href="#"><span>General Coaching</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">General Coaching</a></li>
                   <li><a href="#">Leadership Coaching</a></li>
-                  <li><a href="#">Corporate Wellness Learning & Development
-                  </a></li>
                   <li><a href="#">Executive Coaching</a></li>
-                  <li><a href="#">Managerial Coaching</a></li>
                 </ul>
               </li>
               <li><a href="#">General Coaching</a></li>
-              <li><a href="#">Leadership Coaching</a></li>
               <li><a href="#">Corporate Wellness Learning & Development</a></li>
-              <li><a href="#">Managerial Coaching</a></li>
               <li><a href="#">Executive Coaching</a></li>
 
 
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="getstarted scrollto" href="https://calendly.com/ennoblercoaches/coachingcall?month=2023-06">Book
+              Appointment</a></li>
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -90,13 +92,23 @@
 
       <div class="row gy-4">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1>Welcome to Ennobler</h1>
-          <h2>We deliver everything in the best possible cost, be it small humanistic personal facilitation undertakings
-            to total business transformational life cycles. We make our clients our family and support them through
-            thick and thins using tools like</h2>
+          <h1>Get Help, <br> Get Better</h1>
+          <h2>Get the help you need right here, right now, no matter what's bothering you.
+          </h2>
+
+
+
           <div>
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="#about" class="btn-get-started scrollto" style="background-color: rgb(255, 173, 21);">Get
+              Started</a>
+            <a href="https://calendly.com/ennoblercoaches/coachingcall?month=2023-06" class="btn-get-started scrollto"
+              style=" margin-left: 10px;">Book Appointment</a>
+
           </div>
+          <p style=" margin-top: 20px;"> <i class="fa-solid fa-circle"
+              style="color: #eb1414; padding: 0;margin: 0;"></i> <span id="clientNum"></span> people are currently
+            seeking guidance</p>
+
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
           <img src="assets/img/hero2.png " class="img-fluid animated" alt="">
@@ -109,114 +121,174 @@
   <main id="main">
 
 
-    <section id="about" class="about">
+
+    <!-- highlight section -->
+    <section id="highlight">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col">
+            <h1>Happier People.</h1>
+            <div class="wrapper">
+              <div class="static-txt"> Happier</div>
+              <ul class="dynamic-txts">
+                <li><span>Workplaces</span></li>
+                <li><span>Campuses</span></li>
+                <li><span>Lives</span></li>
+                <li><span>Business</span></li>
+              </ul>
+            </div>
+            <h2>Do you want to make your town a happier place? We have assisted institutions, corporations, incubators,
+              and government agencies in developing emotionally resilient communities of nearly 2 million individuals.
+
+            </h2>
+
+            <a href="#"><button type="button" class="btn btn-success">Learn More</button></a>
+
+
+
+
+          </div>
+
+        </div>
+    </section>
+
+
+    <!-- Features Section -->
+
+    <section id="about" class="feature">
+
+
+      <div class="container feat-container">
+
+        <div class="row" data-aos="fade-up" style="align-items: stretch;">
+          <div class="col-sm-3">
+            <div class="col feature-col">
+              <i class="fa-solid fa-user-shield fa-4x feat-icon"></i>
+              <h5>Privacy</h5>
+            </div>
+          </div>
+          <div class="col feature-col">
+            <i class="fa-sharp fa-solid fa-mask fa-4x feat-icon"></i>
+            <h5>Anonymous Discussions</h5>
+          </div>
+          <div class="col feature-col">
+            <i class="fa-solid fa-4x fa-clock feat-icon"></i>
+            <h5>24x7 support</h5>
+          </div>
+          <div class="col feature-col">
+            <i class="fa-solid fa-desktop fa-4x feat-icon"></i>
+            <h5>Sessions</h5>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- <section id="about" class="about">
+
+
       <div class="container">
 
         <div class="row justify-content-between">
 
           <div class="row-lg-6 pt-5 pt-lg-0">
-            <h3 data-aos="fade-up">Ennobler Private Limited is.......</h3>
-            <p data-aos="fade-up" data-aos-delay="100">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, corporis voluptates ducimus ex, libero
-              quasi recusandae repellat animi quod obcaecati eaque! Nesciunt animi quia recusandae odio iste totam
-              minima harum.
-            </p>
+            <h3 data-aos="fade-up">How Ennobler can help you</h3>
+            
 
           </div>
         </div>
 
       </div>
-    </section>
+    </section> -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <p>Our Services : Empowering You to Overcome Life's Challenges
-          </p>
+          <p>Our Solutions : Empowering You to Overcome Life's Challenges</p>
+
         </div>
+        <p data-aos="fade-up" data-aos-delay="100" style="margin-bottom: 40px;">
+          Ennoblers work with you in <b> group training programs or in personalized coaching model. </b> We work to
+          serve you
+          for your challenges as per your convenience. We <b>offer </b> you multiple <b>opportunities to explore mind
+            handling
+            solutions, </b> getting a group of people to work together and a community that stand by you in thick and
+          thin
+          of your personal and professional challenges. Ennoblers are <b> master in bringing best mind network </b> to
+          support our clients with well-defined and customized solutions to their personal and professional
+          challenges.
+        </p>
 
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-3">
             <div class="card">
               <img class="card-img-top" src="assets/img/genralCoaching.png  " alt="General Coaching">
 
               <div class="card-body">
                 <h5 class="card-title">General Coaching</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolore at repudiandae libero eius harum voluptatibus illo provident vitae voluptatem? Esse modi blanditiis perspiciatis? Eligendi facere error suscipit nam perferendis?</p>
-                <a href="general-coaching.html" class="btn btn-primary">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolore at
+                  repudiandae libero eius harum voluptatibus illo provident vitae voluptatem? Esse modi blanditiis
+                  perspiciatis? Eligendi facere error suscipit nam perferendis?</p>
+                <a href="general-coaching.html" class="btn btn-primary">Learn More <i
+                    class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-3">
             <div class="card">
               <img class="card-img-top" src="assets/img/leaderShip.png" alt="Leadership Coaching">
 
               <div class="card-body">
                 <h5 class="card-title">Leadership Coaching</h5>
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perferendis, enim dicta voluptates quibusdam iure deserunt accusantium blanditiis natus at ducimus veritatis quam laborum quidem temporibus! Soluta quas nisi enim.</p>
-                <a href="leadership-coaching.html" class="btn btn-primary">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perferendis, enim
+                  dicta voluptates quibusdam iure deserunt accusantium blanditiis natus at ducimus veritatis quam
+                  laborum quidem temporibus! Soluta quas nisi enim.</p>
+                <a href="leadership-coaching.html" class="btn btn-primary">Learn More <i
+                    class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-3">
             <div class="card">
-              <img class="card-img-top" src="assets/img/corporate.png" style="width: 100%; text-align: center; align-items: center;"  alt="Card image cap">
+              <img class="card-img-top" src="assets/img/corporate.png"
+                style="width: 100%; text-align: center; align-items: center;" alt="Card image cap">
 
               <div class="card-body">
                 <h5 class="card-title">Corporate Wellness Learning & Development</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nisi explicabo ratione hic molestiae officiis voluptates saepe. Eaque exercitationem assumenda sit nulla, et est dolorem perferendis quae similique aliquid architecto!</p>
-                <a href="corporate-coaching.html" class="btn btn-primary">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nisi explicabo
+                  ratione hic molestiae officiis voluptates saepe. Eaque exercitationem assumenda sit nulla, et est
+                  dolorem perferendis quae similique aliquid architecto!</p>
+                <a href="corporate-coaching.html" class="btn btn-primary">Learn More <i
+                    class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-3">
             <div class="card">
-              <img class="card-img-top" src="assets/img/executive.png" style="width: 100%; text-align: center; align-items: center;"  alt="Card image cap">
+              <img class="card-img-top" src="assets/img/executive.png"
+                style="width: 100%; text-align: center; align-items: center;" alt="Card image cap">
 
               <div class="card-body">
                 <h5 class="card-title">Executive Coaching</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nisi explicabo ratione hic molestiae officiis voluptates saepe. Eaque exercitationem assumenda sit nulla, et est dolorem perferendis quae similique aliquid architecto!</p>
-                <a href="executive-coaching.html" class="btn btn-primary">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nisi explicabo
+                  ratione hic molestiae officiis voluptates saepe. Eaque exercitationem assumenda sit nulla, et est
+                  dolorem perferendis quae similique aliquid architecto!</p>
+                <a href="executive-coaching.html" class="btn btn-primary">Learn More <i
+                    class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
         </div>
-
-        <!-- <div class="row">
-
-
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">General Coaching</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Leadership Coaching</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Corporate Wellness Learning & Development</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                praesentium voluptatum</p>
-            </div>
-          </div>
-
-        </div> -->
-
       </div>
+
+
+
     </section>
 
     <!-- ======= Portfolio Section ======= -->
@@ -247,8 +319,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/img1.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/img1.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title=""><i class="bi bi-plus"></i></a>
+                <a href="assets/img/portfolio/img1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title=""><i class="bi bi-plus"></i></a>
               </div>
               <div class="portfolio-info">
                 <h4></h4>
@@ -261,8 +333,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/img2.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/img2.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title=""><i class="bi bi-plus"></i></a>
+                <a href="assets/img/portfolio/img2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title=""><i class="bi bi-plus"></i></a>
               </div>
               <div class="portfolio-info">
                 <h4></h4>
@@ -275,8 +347,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/img3.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/img3.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title=""><i class="bi bi-plus"></i></a>
+                <a href="assets/img/portfolio/img3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title=""><i class="bi bi-plus"></i></a>
               </div>
               <div class="portfolio-info">
                 <h4></h4>
@@ -289,8 +361,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/img4.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/img4.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title=""><i class="bi bi-plus"></i></a>
+                <a href="assets/img/portfolio/img4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title=""><i class="bi bi-plus"></i></a>
               </div>
               <div class="portfolio-info">
                 <h4></h4>
@@ -303,8 +375,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/img5.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/img5.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title=""><i class="bi bi-plus"></i></a>
+                <a href="assets/img/portfolio/img5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title=""><i class="bi bi-plus"></i></a>
               </div>
               <div class="portfolio-info">
                 <h4></h4>
@@ -317,8 +389,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/img6.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/img6.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title=""><i class="bi bi-plus"></i></a>
+                <a href="assets/img/portfolio/img6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title=""><i class="bi bi-plus"></i></a>
               </div>
               <div class="portfolio-info">
                 <h4></h4>
@@ -331,8 +403,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/img7.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/img7.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title=""><i class="bi bi-plus"></i></a>
+                <a href="assets/img/portfolio/img7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title=""><i class="bi bi-plus"></i></a>
               </div>
               <div class="portfolio-info">
                 <h4></h4>
@@ -345,8 +417,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/img8.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/img8.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title=""><i class="bi bi-plus"></i></a>
+                <a href="assets/img/portfolio/img8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title=""><i class="bi bi-plus"></i></a>
               </div>
               <div class="portfolio-info">
                 <h4></h4>
@@ -359,8 +431,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/img9.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/img9.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title=""><i class="bi bi-plus"></i></a>
+                <a href="assets/img/portfolio/img9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title=""><i class="bi bi-plus"></i></a>
               </div>
               <div class="portfolio-info">
                 <h4></h4>
@@ -373,6 +445,9 @@
 
       </div>
     </section>
+
+
+
 
     <!-- ======= F.A.Q Section ======= -->
     <!-- <section id="faq" class="faq section-bg">
@@ -465,7 +540,7 @@
         </ul>
 
       </div>
-    </section>End F.A.Q Section -->
+    </section> -->
 
     <!-- ======= Team Section ======= -->
     <!-- <section id="team" class="team">
@@ -556,32 +631,45 @@
     </section>End Team Section -->
 
     <!-- ======= Clients Section ======= -->
-    <!-- <section id="clients" class="clients section-bg">
+    <section id="clients" class="clients section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Clients</h2>
-          <p>They trusted us</p>
-        </div>
+          <h2>Testimonials</h2>
+          <p>What our Clients Say about us</p>
+          <!-- Testimonials -->
 
-        <div class="clients-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          <div class="testimonial-container">
+
+            <div class="progress-bar"></div>
+            <div class="fas fa-quote-right fa-quote"></div>
+            <div class="fas fa-quote-left fa-quote"></div>
+
+            <h6 class="testimonial">
+              "As a senior executive in HCL, my work pressure was more than the energy I possess. As I engaged Ennobler
+              coach
+              for Humanistic coaching, I started improving my ability to empower myself and others, develop and support
+              my
+              team, effectively manages my time and my ‘reputation as a whole. Ennobler coach has helped me to become a
+              better
+              leader. The coaching results were evident both to myself, my team and colleagues. In particular, my
+              relationship
+              with my other team members and colleagues has dramatically improved which has enabled us to work much more
+              effectively together to the benefit of the business."
+
+            </h6>
+            <div class="user">
+              <img src="https://randomuser.me/api/portraits/women/46.jpg" alt="user" class="user-img" />
+              <div class="user-details">
+                <h5 class="username">Sanjay Shenoy
+                </h5>
+                <h7 class="role">IT Senior Consultant
+                  <h7>
+              </div>
+            </div>
           </div>
-          <div class="swiper-pagination"></div>
-        </div>
+    </section>
 
-      </div>
-    </section>End Clients Section -->
-
-    <!-- ======= Contact Us Section ======= -->
     <!-- <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
@@ -651,7 +739,7 @@
         </div>
 
       </div>
-    </section>End Contact Us Section -->
+    </section> -->
 
   </main>
 
@@ -739,6 +827,67 @@
     </div>
   </footer>
 
+  <script>
+
+
+
+
+    var list = ["18", "19", "20"];
+    randomNum = Math.floor(Math.random() * 3);
+    document.getElementById("clientNum").innerHTML = list[randomNum];
+
+
+
+    const testimonialsContainer = document.querySelector('.testimonials-container'),
+      testimonial = document.querySelector('.testimonial'),
+      userImage = document.querySelector('.user-img'),
+      username = document.querySelector('.username'),
+      role = document.querySelector('.role');
+
+    const testimonials = [
+
+
+      {
+        name: 'Purna Mishra',
+        position: 'Avenue Alternatives',
+        photo: 'https://randomuser.me/api/portraits/women/65.jpg',
+        text:
+          "Ennobler coaches are flexible and keep clear objective approach. Their coaches exhibits the right balance of support and challenge. It enabled me to see a clearer path both in solving leadership issues and achieving my personal development goals. The techniques and approaches practiced and developed with my coach (and the confidence gained) has enable me to continue to improve, even at the end of our coaching program",
+      },
+
+      {
+        name: 'Sarbjit Singh',
+        position: 'SR Executive- Power Sector',
+        photo:
+          'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?h=350&auto=compress&cs=tinysrgb',
+        text:
+          'Ennobler coaches have exceptional understanding of every field of work and they understand the problems of executives. Their unique ennobling style worked effortlessly on me. I feel so relaxed and motivated to work passionately now onwards. DDM is great coach and amazing mentor to many start-ups. I have got personal attention from the Ennobler coaches and feel proud to choose them in time of my need.',
+      },
+
+    ];
+
+    let idx = 1;
+
+    function updateTestimonial() {
+      const { name, position, photo, text } = testimonials[idx];
+
+      testimonial.innerHTML = text;
+      userImage.src = photo;
+      username.innerHTML = name;
+      role.innerHTML = position;
+
+      idx++;
+
+      if (idx > testimonials.length - 1) {
+        idx = 0;
+      }
+    }
+
+    setInterval(updateTestimonial, 10000);
+
+
+  </script>
+
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
@@ -752,6 +901,16 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 
 </body>
 
