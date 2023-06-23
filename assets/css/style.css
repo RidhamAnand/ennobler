@@ -594,12 +594,8 @@ section {
 /* Featuree */
 
 .feature{
-  background: rgb(249,228,137);
-  background: -moz-linear-gradient(180deg, rgba(249,228,137,1) 21%, rgba(239,243,246,1) 100%);
-  background: -webkit-linear-gradient(180deg, rgba(249,228,137,1) 21%, rgba(239,243,246,1) 100%);
-  background: linear-gradient(180deg, rgba(249,228,137,1) 21%, rgba(239,243,246,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9e489",endColorstr="#eff3f6",GradientType=1);
-  padding: 25px;
+  background-color: #EFF3F6 !important;
+    padding: 25px;
 }
 
 .feat-container{
