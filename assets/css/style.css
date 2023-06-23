@@ -415,7 +415,7 @@ i{
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 35px;
     line-height: 36px;
   }
 
@@ -427,6 +427,12 @@ i{
   #hero .hero-img img {
     width: 70%;
   }
+
+  #highlightText {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -436,7 +442,43 @@ i{
   #highlight .col h2{
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 15px !important;
+  }
+  #highlight .col h1{
+    font-size: 28px !important;
+  }
+  .wrapper .static-txt{
+    font-size: 32px !important;
+
+  }
+  .dynamic-txts li span{
+    font-size: 32px !important;
+    animation: none;
+  }
+  #hero .btn-get-started{
+    font-size: 13px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 10px;
+  }
+
+  #hero p{
+    font-size: 13px;
+  }
+
+  .section-title p{
+    font-size: 24px !important;
+  }
+
+  #services p{
     font-size: 15px;
+  }
+
+  #highlight button{
+    font-size: 13px;
+  }
+  .feature-col h5{
+    font-size: 18px;
   }
 }
 
@@ -444,6 +486,11 @@ i{
   #hero {
     height: 120vh;
   }
+  .dynamic-txts li span{
+    font-size: 32px !important;
+    animation: none !important;
+  }
+
 }
 
 @keyframes up-down {
@@ -611,6 +658,7 @@ margin-top: 25px;
   justify-content: space-between;
   align-content: center;
 }
+
 .feature-col h5{
   padding: 10px;
   text-transform: uppercase;  
@@ -633,56 +681,6 @@ margin-top: 25px;
 }
 
 /* highlight */
-
-/* .wrapper {
-  display: inline-flex;
-}
-.wrapper .static-txt {
-  color: #4e4039;
-  font-size:50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.wrapper .dynamic-txts {
-  height: 70px;
-  line-height: 70px;
-  overflow: hidden;
-margin-left: 8px;
-}
-
-.dynamic-txts li {
-  color: #4e4039;
-  list-style: none;
-  font-size:50px;
-  top: 0;
-  animation: slide 6s steps(4) infinite;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-@keyframes slide {
-  100% {
-    top: -280px;
-  }
-}
-.dynamic-txts li span {
-  position: relative;
-}
-.dynamic-txts li span::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgb(255, 255, 255);
-  border-left: 2px solid rgb(2, 2, 2);
-  animation: typing 1.5s steps(10) infinite;
-}
-@keyframes typing {
-  100% {
-    left: 100%;
-    margin: 5 -35px 0 35px;
-  }
-} */
-
 
 .wrapper {
   display: inline-flex;
