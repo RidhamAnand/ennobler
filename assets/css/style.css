@@ -691,31 +691,24 @@ margin-left: 8px;
 .wrapper {
   display: inline-flex;
 }
-
 .wrapper .static-txt {
   color: #000000;
   font-size: 56px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 .wrapper .dynamic-txts {
-  margin-left: 10px;
-  padding: 0;
   height: 70px;
   line-height: 70px;
   overflow: hidden;
-  font-size: 56px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 
 }
 .dynamic-txts li {
-  color: rgb(2, 2, 2);
+  color: rgb(14, 13, 13);
   list-style: none;
   font-size: 56px;
   position: relative;
   top: 0;
   animation: slide 6s steps(4) infinite;
-  padding: 5px;
 }
 @keyframes slide {
   100% {
