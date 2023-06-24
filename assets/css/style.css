@@ -436,6 +436,7 @@ i{
     margin-bottom: 20px;
     font-size: 15px;
   }
+ 
 }
 
 @media (max-width: 575px) {
@@ -485,6 +486,10 @@ i{
   .feature-col h5{
     font-size: 18px;
   }
+
+  #methodology .card-img-top{
+    width: 40% !important;
+  }
 }
 
 @media (max-height: 600px) {
@@ -494,6 +499,9 @@ i{
   .dynamic-txts li span{
     font-size: 32px !important;
     animation: none !important;
+  }
+  #methodology .card-img-top{
+    width: 40% !important;
   }
 
 }
@@ -1658,4 +1666,140 @@ transition: .5s;
     text-align-last: center;
     padding: 3px 0;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* other pages css */
+
+/* insights */
+
+
+
+.circle {
+  position: relative;
+  display: block;
+  background-color: transparent;
+  color: #ffffff;
+  text-align: center;
+  width: 300px;
+  margin: 10px;
+
+}
+
+.circle:after {
+  display: block;
+  padding-bottom: 100%;
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #ffffff;
+  content: "";
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.363);
+  color: black;
+
+}
+
+.circle h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.circle h5{
+  color: black;
+  font-weight: lighter !important;
+font-family: Arial, Helvetica, sans-serif;}
+
+.circle__inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.circle__wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.circle__content {
+  display: table-cell;
+  padding: 40px;
+  vertical-align: middle;
+}
+
+@media (min-width: 480px) {
+  .circle__content {
+    font-size: 18px !important;
+  }
+  .circle h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px !important;
+  }
+  .circle{
+    width: 280px;
+  }
+}
+
+@media (min-width: 768px) {
+  .circle__content {
+    font-size: 18px !important;
+  }
+}
+
+/* methodology */
+#methodology{ 
+
+  border-top: 2px solid #adadad;
+  border-bottom: 2px solid #adadad;
+
+  background-color: #FEFCF2;
+
+  
+  
+}
+
+#methodology .col-sm-4{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+#methodology .card{
+  min-height: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+}
+
+#methodology .card-img-top{
+  width: 50%;
+}
+
+#methodology .card:hover{
+  background-color: white;
+  color: black;
+}
+
+#methodology .card-body{
+  margin-top: 15px;
+  border-top: 1px black solid;
+  padding-left: 0;
+  padding-right: 0;
+
 }
