@@ -500,7 +500,34 @@
     #custom-area .col-sm-3 img{
       width: 30% !important;
     }
+
+    #quiz-redirect .card-img{
+      margin-left: 0 !important;
+      margin-right: 75px !important;
+
+    }
+     .white-btn{
+      font-size: 16px !important;
+      margin-bottom: 30px;
+    }
+    #more-info h5{
+      font-size: 20px !important;
+    }
+    .circle {
+        width: 220px !important;
+    }
+
+    .circle h1{
+      font-size: 45px !important;
+    }
+    .circle  h5{
+      font-size: 15px;
+    }
+    .sick-card-body{
+      font-size: 20px !important;
+    }
   }
+
 
   @media (max-height: 600px) {
     #hero {
