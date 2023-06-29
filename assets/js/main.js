@@ -242,4 +242,52 @@
     });
   });
 
+  const testimonialsContainer = document.querySelector('.testimonials-container'),
+      testimonial = document.querySelector('.testimonial'),
+      userImage = document.querySelector('.user-img'),
+      username = document.querySelector('.username'),
+      role = document.querySelector('.role');
+
+    const testimonials = [
+
+
+      {
+        name: 'Purna Mishra',
+        position: 'Avenue Alternatives',
+        photo: 'assets\\img\\purna.jpg',
+        text:
+          "Ennobler coaches are flexible and keep clear objective approach. Their coaches exhibits the right balance of support and challenge. It enabled me to see a clearer path both in solving leadership issues and achieving my personal development goals. The techniques and approaches practiced and developed with my coach (and the confidence gained) has enable me to continue to improve, even at the end of our coaching program",
+      },
+
+      {
+        name: 'Sarbjit Singh',
+        position: 'SR Executive- Power Sector',
+        photo:
+          'assets\\img\\sarbjit.jpg',
+        text:
+          'Ennobler coaches have exceptional understanding of every field of work and they understand the problems of executives. Their unique ennobling style worked effortlessly on me. I feel so relaxed and motivated to work passionately now onwards. DDM is great coach and amazing mentor to many start-ups. I have got personal attention from the Ennobler coaches and feel proud to choose them in time of my need.',
+      },
+
+    ];
+
+    let idx = 1;
+
+    function updateTestimonial() {
+      const { name, position, photo, text } = testimonials[idx];
+
+      testimonial.innerHTML = text;
+      userImage.src = photo;
+      username.innerHTML = name;
+      role.innerHTML = position;
+
+      idx++;
+
+      if (idx > testimonials.length - 1) {
+        idx = 0;
+      }
+    }
+
+    setInterval(updateTestimonial, 10000);
+
 })()
+
