@@ -459,12 +459,16 @@
     #highlightText {
       margin-top: 20px;
       margin-bottom: 20px;
-      font-size: 16px !important;
+      font-size: 1em !important;
     }
 
   }
 
   @media (max-width: 575px) {
+
+    .text-light{
+      font-size: 25px !important;
+    }
     #hero .hero-img img {
       width: 80%;
     }
@@ -472,7 +476,7 @@
     #highlight .col h2 {
       margin-top: 20px;
       margin-bottom: 20px;
-      font-size: 16px !important;
+      font-size: 1em !important;
     }
    
 
@@ -492,7 +496,7 @@
     }
 
     #hero .btn-get-started {
-      font-size: 16px;
+      font-size: 1em;
       margin-left: 0 !important;
       margin-right: 0 !important;
       margin-top: 10px;
@@ -507,11 +511,11 @@
     }
 
     #services p {
-      font-size: 16px;
+      font-size: 1em;
     }
 
     #highlight button {
-      font-size: 13px;
+      font-size: 15px;
     }
 
     .feature-col h5 {
@@ -571,6 +575,9 @@
       height: 215px;
 
     }
+    .exit-cover{
+      padding: 40px 20px !important;
+    }
     .exit-cover h1{
       font-size: 35px !important;
       margin-top: 0px !important;
@@ -610,13 +617,19 @@
     #advantages .col-sm-4 p{
       text-align: justify !important;
     }
+
+    #offering{
+      padding-top: 30px !important;
+    }
+
     #offering .row p {
-      font-size: 18px !important;
+      font-size: 1em !important;
       margin-top: -7px !important;
       text-align: left !important;
     }
     #custom-area .body-text{
-      font-size: 18px !important;
+      font-size: 1em !important;
+      padding: 0px 20px;
     }
    
     #offering .col-sm-4 h1 {
@@ -638,6 +651,14 @@
     #more-info .col-lg-4 h5{
       text-align: center !important;
     }
+    #more-info .row{
+      padding-top: 10px !important;
+      margin-top: 0px !important;
+    }
+
+    #more-info .col-lg-4{
+      padding: 15px !important;
+    }
     .section-title{
       padding-bottom: 10px !important;
     } 
@@ -645,7 +666,7 @@
       margin-bottom: 20px !important;
     }
      .card-title {
-      font-size: 20 px !important;
+      font-size: 20px !important;
       margin-bottom: 20px !important;
     }
     #blog .card a {
@@ -654,16 +675,27 @@
       font-size: 20px !important;
     }
     .card-text{
-      font-size: 14px !important;
+      font-size: 16px !important;
     }
     #services .card .btn{
-      font-size: 14px !important;
+      font-size: 16px !important;
       padding-left: 0px !important;
     }
     .testimonial{
       line-height: normal !important;
-      font-size: 14px;
+      font-size: 1em;
       font-family: Arial, Helvetica, sans-serif !important;
+      text-align: left !important;
+      margin-top: 10px;
+    }
+    .user .username{
+      font-size: 1em !important;
+    }
+    #quiz-redirect{
+      padding: 0px !important;
+    }
+    #insights{
+      padding-top: 10px !important;
     }
   }
   
@@ -727,7 +759,7 @@
     }
 
     #highlight button {
-      font-size: 13px;
+      font-size: 15px !important;
     }
 
     .feature-col h5 {
@@ -761,7 +793,7 @@
     }
 
     #more-info h5 {
-      font-size: 18px !important;
+      font-size: 16px !important;
       line-height:normal !important;
       text-align: left !important;
     }
@@ -827,7 +859,7 @@
       text-align: justify !important;
     }
     #offering .row p {
-      font-size: 18px !important;
+      font-size: 1em !important;
       margin-top: -20px !important;
       text-align: left !important;
     }
