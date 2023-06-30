@@ -268,6 +268,22 @@
           'Ennobler coaches have exceptional understanding of every field of work and they understand the problems of executives. Their unique ennobling style worked effortlessly on me. I feel so relaxed and motivated to work passionately now onwards. DDM is great coach and amazing mentor to many start-ups. I have got personal attention from the Ennobler coaches and feel proud to choose them in time of my need.',
       },
 
+      {
+        name: 'Mr. Ajay Gupta',
+        position: 'Senior Government Officer',
+        photo:
+          'assets\\img\\testimonial4.png',
+        text:"Being a Government employee, it is hard to express myself openly to the employees. This lead to a state of great distress & anxiety. I am glad that I came across Divye DuhetaMahajan as Ennobler Coach who dexterously took me out of my  anxiety loop to a state of absolute confidence in just three months. It's good to have a personalized coach for better performance and personalized growth"
+      },
+
+      {
+        name: 'Mrs. Rajni Saraf',
+        position: 'CFO/President J&K Bank, J&K, India',
+        photo:
+          'assets\\img\\testimonial5.png',
+        text: "Being a women, I have to take care of my family as well as my professional responsibility as I hold a crucial place of two charges as CFO and President of J&K bank. I was getting bogged down with excessive pressure from work and family life. Somewhere I was loosing my ability to tackle things. Divye Duheta helped me in bring back my confidence and refined my abilities through rigorous coaching sessions. She is just so amazing in her wor"  
+        },
+
     ];
 
     let idx = 1;
