@@ -2758,7 +2758,7 @@
 
   .wrap-container {
     position: relative;
-    min-height: 95vh;
+   
     background-image: linear-gradient(to right top, #203272, #2a4284, #335297, #3c63aa, #4674bd, #4674bd, #4674bd, #4674bd, #3c63aa, #335297, #2a4284, #203272);
   }
 
@@ -2769,7 +2769,7 @@
   }
 
   .wrap-container .row {
-    margin-top: 100px;
+    margin-top: 60px;
   }
 
 
