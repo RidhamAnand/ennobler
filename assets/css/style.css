@@ -513,6 +513,7 @@
 
     #services p {
       font-size: 1em;
+      text-transform: capitalize !important ;
     }
 
     #highlight button {
@@ -1256,6 +1257,7 @@
   #service-body {
     color: white;
     font-size: 24px;
+    text-transform: capitalize;
   }
 
 
