@@ -1768,7 +1768,7 @@
     background: #333;
     color: #fff;
     line-height: 1;
-    padding: 4px 0;
+    padding: 4px 0 !important;
     border-radius: 50%;
     text-align: center;
     width: 36px;
@@ -2113,7 +2113,7 @@
     background: #5c9b08;
     color: #fff;
     line-height: 1;
-    padding: 8px 0;
+    padding: 4px 0;
     margin-right: 4px;
     border-radius: 50%;
     text-align: center;
