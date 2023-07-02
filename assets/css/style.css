@@ -2633,6 +2633,7 @@
 
   #custom-area .body-text {
     font-size: 20px;
+    text-transform: capitalize;
   }
 
   #custom-area .row {
