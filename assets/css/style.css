@@ -479,9 +479,17 @@
       margin-bottom: 20px;
       font-size: 1em !important;
     }
-
+    #highlight .col-lg-6 h2 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 1em !important;
+    }
 
     #highlight .col h1 {
+      font-size: 28px !important;
+      padding: 0px !important;
+    }
+    #highlight .col-lg-6 h1 {
       font-size: 28px !important;
       padding: 0px !important;
     }
@@ -775,6 +783,10 @@
     }
 
     #highlight .col h1 {
+      font-size: 28px !important;
+      padding: 0px !important;
+    }
+    #highlight .col-lg-6 h1 {
       font-size: 28px !important;
       padding: 0px !important;
     }
@@ -1224,6 +1236,10 @@
     text-align: left;
     align-items: start;
   }
+  #highlight .col-lg-6 {
+    text-align: left;
+    align-items: start;
+  }
 
   #highlight .btn-get-started {
     background-color: #017746;
@@ -1236,8 +1252,22 @@
     color: #4b4d2e;
 
   }
+  #highlight .col-lg-6 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5rem;
+    color: #4b4d2e;
+
+  }
 
   #highlight .col h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #4b4d2e;
+
+  }
+  #highlight .col-lg-6 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -3044,7 +3074,7 @@
   }
   @media screen and (max-width: 576px) {
     .rotating-text-wrapper h2 {
-      font-size: 25px;
+      font-size: 21px;
     }
     .exit-btn{
       margin-top: 10px !important;
@@ -3062,6 +3092,7 @@
   @keyframes changeText {
     from {
       content:"Management";
+      font-size: 10px !important;
     }
     25% {
       content:"Businesses";
